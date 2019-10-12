@@ -5,6 +5,6 @@ import os.path
 rootdir="/Users/evan/Downloads"
 _list=os.listdir(rootdir)
 for i in range(0,len(_list)):
-    prth=os.path.join(rootdir,list[i])
+    path=os.path.join(rootdir,_list[i])
     if os.path.isfile(path):
-        print()
+        print(path)
